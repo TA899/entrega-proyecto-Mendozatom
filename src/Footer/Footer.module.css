@@ -1,0 +1,23 @@
+.contenedor {
+    display: flex;
+    content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #111827;
+}
+
+.tarjeta {
+    
+    padding: 10px;
+}
+
+.tarjeta p{
+    font-size: 14px;
+    color: whitesmoke;
+   font-family: 'Inter', sans-serif;
+}
+.tarjeta h3 {
+    font-size: 18px;
+    color: whitesmoke;
+   font-family: 'Inter', sans-serif;
+}

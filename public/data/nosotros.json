@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Luis Alberto",
+    "email": "Luisalberto@gmail.com",
+    "puesto": "Técnico",
+    "imagen": "/images/fotodeperfilhombre1.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Nicolas Souta",
+    "email": "Nicolassouta@hotmail.com",
+    "puesto": "Gerente",
+    "imagen": "/images/fotodeperfilhombre2.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Carla Giani",
+    "email": "Carlagiani@gmail.com",
+    "puesto": "Técnica",
+    "imagen": "/images/fotodeperfilmujer2.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Maria Lopez",
+    "email": "Marialopez@gmail.com",
+    "puesto": "Reclutadora",
+    "imagen": "/images/fotodeperfilmujer1.png"
+  }
+]

@@ -1,0 +1,13 @@
+.header {
+    background-color: #111827;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.header h1 {
+    color: #e5e7eb;
+    font-size: 36px;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
