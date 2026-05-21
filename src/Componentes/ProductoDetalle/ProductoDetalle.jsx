@@ -46,9 +46,7 @@ function ProductoDetalle() {
          ${producto.precio}
       </h2>
 
-      <p className={style.stock}>
-         Stock disponible: {producto.stock}
-      </p>
+
 
       <button className={style.boton}>
          Agregar al carrito

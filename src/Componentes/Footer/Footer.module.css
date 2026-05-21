@@ -1,0 +1,68 @@
+.contenedor{
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 2rem;
+
+    flex-wrap: wrap;
+
+    padding: 3rem 2rem;
+
+    background-color: #111827;
+
+    margin-top: 4rem;
+}
+
+.tarjeta{
+    width: 250px;
+
+    background-color: #1f2937;
+
+    border-radius: 18px;
+
+    padding: 1.5rem;
+
+    text-align: center;
+
+    transition: .3s;
+}
+
+.tarjeta:hover{
+    transform: translateY(-5px);
+}
+
+.tarjeta img{
+    width: 100px;
+    height: 100px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    margin-bottom: 1rem;
+
+    border: 3px solid #374151;
+}
+
+.tarjeta h3{
+    font-size: 1.2rem;
+
+    color: white;
+
+    font-family: 'Inter', sans-serif;
+
+    margin-bottom: .5rem;
+}
+
+.tarjeta p{
+    font-size: .95rem;
+
+    color: #d1d5db;
+
+    font-family: 'Inter', sans-serif;
+
+    margin: .3rem 0;
+}

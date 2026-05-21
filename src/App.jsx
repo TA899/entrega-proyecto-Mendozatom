@@ -1,14 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 
-import ProductoDetalle  from "./ProductoDetalle/ProductoDetalle";
+import ProductoDetalle from "./Componentes/ProductoDetalle/ProductoDetalle";
 
-import Layout from "./Layout/Layout";
+import Layout from "./Componentes/Layout/Layout";
 
-import { ItemListContainer } from "./ItemListContainer/ItemListContainer";
+import { ItemListContainer } from "./Componentes/ItemListContainer/ItemListContainer";
 
 import "./index.css";
 
-import Carrito from "./Carrito";
+import Carrito from "./Componentes/Carrito/Carrito";
 
 import { Link } from "react-router-dom";
 
