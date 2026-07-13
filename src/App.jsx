@@ -12,6 +12,16 @@ import Carrito from "./Componentes/Carrito/Carrito";
 
 import { Link } from "react-router-dom";
 
+import GestionProductos from "./Componentes/GestionProductos/GestionProductos";
+
+import GestionCupones from "./Componentes/GestionCupones/GestionCupones";
+
+import Login from "./Componentes/Login/Login";
+
+import Registro from "./Componentes/Registro/Registro";
+
+import ProtectedRoute from "./Componentes/ProtectedRoute/ProtectedRoute";
+
 
 
 function App() {
@@ -56,7 +66,35 @@ function App() {
           element={<Carrito />}
         />
 
-      </Route>
+  
+    
+<Route
+path="GestionProductos"
+element={
+    <ProtectedRoute>
+        <GestionProductos />
+    </ProtectedRoute>
+}
+/>
+
+   
+
+
+<Route
+path="GestionCupones"
+element={
+    <ProtectedRoute>
+        <GestionCupones />
+    </ProtectedRoute>
+}
+/>
+<Route path="/login" element={<Login />} />
+
+<Route path="/registro" element={<Registro />} />
+
+
+
+   </Route>
 
     </Routes>
 

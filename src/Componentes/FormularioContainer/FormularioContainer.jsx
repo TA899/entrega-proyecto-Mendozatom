@@ -1,6 +1,7 @@
 import { useState } from "react";
 import FormularioProducto  from "../FormularioProducto/FormularioProducto";
-
+import { collection, addDoc } from "firebase/firestore";
+import { db } from "../../firebase/config";
 
 function FormularioContainer() {
 
@@ -11,7 +12,8 @@ const [imagenFile, setImagenFile] = useState(null);
 const [datosForm, setDatosForm] = useState({
     nombre: '',
     precio: '',
-    stock: ''
+    stock: '',
+    categoria: ''
 });
 
 const manejarCambio = (evento) => {
@@ -69,14 +71,25 @@ const manejarEnvio = async (evento) => {
             const productoCompleto = {
 
                 ...datosForm,
-                urlImagen: datosImgbb.data.url
+                imagen: datosImgbb.data.url
 
             };
 
-            console.log("Producto completo:");
-            console.log(productoCompleto);
+    console.log("Enviando producto a Firebase", productoCompleto) ;
+            
 
-            alert("Producto cargado correctamente");
+    alert("Producto cargado correctamente");
+
+
+
+// Apuntamos a la colección "productos" (si no existe, se crea)
+const productosCollection = collection(db, "productos");
+await addDoc(productosCollection, productoCompleto);
+
+
+
+
+
 
         } else {
 

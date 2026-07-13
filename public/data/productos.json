@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nombre": "Monitor Curvo",
-    "precio": 110000,
+    "precio": 110000.50,
     "stock": 8,
     "imagen": "/images/MonitorCurvo.jpg",
     "descripcion": "Monitor curvo de 27 pulgadas con resolución Full HD y tasa de refresco de 144Hz."

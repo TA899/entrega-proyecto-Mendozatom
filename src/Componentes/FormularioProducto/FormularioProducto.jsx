@@ -5,7 +5,8 @@ export function FormularioProducto({
     manejarCambio,
     manejarEnvio,
     manejarCambioImagen,
-    loading
+    loading,
+    modoEdicion
 }) {
 
 const formStyle = {
@@ -70,9 +71,52 @@ return (
             />
         </div>
 
+       <div>
+            <label>Categoria:</label>
+
+            <input
+                type="text"
+                placeholder="Ej: Bebidas"
+                name="categoria"
+                value={datosForm.categoria}
+                onChange={manejarCambio}
+            />
+        </div>
+
+   <div>
+            <label>id:</label>
+
+            <input
+                type="number"
+                placeholder="Ej: 5"
+                name="id"
+                value={datosForm.id}
+                onChange={manejarCambio}
+            />
+ </div>
+
+ 
+   <div>
+            <label>descripcion:</label>
+
+            <input
+                type="text"
+                placeholder="Ej: Bebida energizante"
+                name="descripcion"
+                value={datosForm.descripcion}
+                onChange={manejarCambio}
+            />
+ </div>
+
+
+
      <button type="submit" disabled={loading}>
 
-   {loading ? "Subiendo..." : "Guardar Producto"}
+   {loading
+    ? "Procesando..."
+    : modoEdicion
+        ? "Actualizar Producto"
+        : "Guardar Producto"}
 
 </button>
 
