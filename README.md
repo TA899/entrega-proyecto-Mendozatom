@@ -18,7 +18,7 @@ El proyecto comenzó como una pre-entrega de Frontend y fue evolucionando incorp
 
 🌐 Aplicación desplegada:
 
-(https://tom4s-final-pr.netlify.app)
+https://tom4s-final-pr.netlify.app
 
 ---
 
@@ -26,7 +26,7 @@ El proyecto comenzó como una pre-entrega de Frontend y fue evolucionando incorp
 
 🔗 GitHub:
 
-(https://github.com/TA899/entrega-proyecto-Mendozatom)
+https://github.com/TA899/entrega-proyecto-Mendozatom
 
 ---
 
