@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import styles from "./Navbar.module.css"
-import { useCart } from "../../context/CartContext";
-import { useAuth } from "../../context/AuthContext";
+import { useCart } from "../../Context/CartContext";
+import { useAuth } from "../../Context/AuthContext";
 
 
 const NavBar = () => {

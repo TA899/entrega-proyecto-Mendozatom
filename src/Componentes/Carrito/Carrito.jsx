@@ -1,6 +1,6 @@
 // src/componentes/Carrito/Carrito.jsx
 
-import { useCart } from "../../context/CartContext";
+import { useCart } from "../../Context/CartContext";
 import { useState } from "react";
 import { db } from "../../firebase/config";
 import { collection, getDocs } from "firebase/firestore";
